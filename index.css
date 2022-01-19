@@ -1,0 +1,41 @@
+*,  
+*::before,  
+*::after {
+    box-sizing: border-box;
+}
+
+.container{
+    background: #2F1893;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 4em;
+    padding: 100px 200px;    
+}
+
+div.item { 
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+body {
+    background-color: #2F1893;
+}
+
+.textbox {
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    padding: 0 400px;
+
+}
+p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.textbox * {
+    max-width: ch;
+}
